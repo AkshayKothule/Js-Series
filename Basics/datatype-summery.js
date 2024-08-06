@@ -31,3 +31,8 @@ const myfunction=function(){
 // link
 
 // https://ecma-international.org/publications-and-standards/standards/ecma-262/
+
+
+//**********************************************
+
+//Stack(primitive) , Heap(non-primitive)
