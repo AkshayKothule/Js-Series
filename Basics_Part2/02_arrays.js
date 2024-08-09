@@ -16,15 +16,15 @@ const another_arry=[1 , 2 , 3,[4 , 5 , 6] , 7 ,[6 ,7 ,[4 ,5]]];
 // console.log(real_another_array);
 
 
-console.log(Array.isArray("Akshay"));
-console.log(Array.from("Akshay"));
-console.log(Array.from({name:"Akshay"}));
+// console.log(Array.isArray("Akshay"));
+// console.log(Array.from("Akshay"));
+// console.log(Array.from({name:"Akshay"}));
 
 let score1=100;
 let score2=200;
 let score3=300;
 
-console.log(Array.of(score1 , score2 , score3));
+// console.log(Array.of(score1 , score2 , score3));
 
 
 
