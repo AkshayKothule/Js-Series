@@ -34,15 +34,41 @@ const obj2={4:"a" , 5:"b" , 6:"c"
 const obj3=Object.assign({}, obj1 , obj2)
 // console.log(obj3);
 
-console.log(tinderUser);
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(tinderUser);
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('isLoged'));
-
-
+// console.log(tinderUser.hasOwnProperty('isLoged'));
 
 
 
+// ********de structure object**************************
 
+const course={
+    coursename:"js in hindi",
+    courseprice:"999",
+    courceInstructer:"Akshay"
+}
+
+// console.log(course.courceInstructer);
+
+const {courceInstructer :instucter}=course;
+// console.log(courceInstructer);
+// console.log(instucter);
+
+//destructer 
+// const NavBar=({company})=>{
+
+// }
+// NavBar(company="apple");
+
+
+//api :- looking body like json
+
+// json Fromat
+// {
+//     name:"Akshay",
+//     courseName:"js in hindi",
+//     price:"free"
+// }
