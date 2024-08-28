@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=h1, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Chai Aur Javascript</h1>
+    <button id="start">Start</button>
+    <button id="stop"> Stop</button>
+</body>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+    const sayHi = function(str) {
+        console.log(str + " Akshay", Date.now());
+    }
+
+    let intervalId = setInterval(sayHi, 1000, 'hi');
+
+    document.querySelector('#stop').addEventListener('click', function() {
+        clearInterval(intervalId);
+        console.log("stopped Interval");
+    });
+
+    document.querySelector('#start').addEventListener('click', function() {
+        // Restart the interval
+        if (!intervalId) { // Ensure interval isn't already running
+            intervalId = setInterval(sayHi, 1000, 'hi');
+            console.log("started the Interval");
+        }
+    });
+});
+
+</script>
+</html>
